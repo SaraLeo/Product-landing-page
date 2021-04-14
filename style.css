@@ -1,0 +1,66 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+}
+.header {
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-img {
+    width: 70px;
+}
+#nav-bar li {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: Yellow;
+}
+.container {
+    padding: 120px 20px 0 20px;
+}
+#menu li {
+    display: inline;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 0 20px 0 20px;
+    list-style-type: none;
+    font-size: 50px;
+    color: red;
+}
+#food {
+    margin: 20px 0 20px 0;
+}
+#about {
+    display: block;
+    margin: 0 auto;
+}
+#mailing-list {
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+p {
+    color: red;
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 400px;
+    }
+}
